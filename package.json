@@ -1,0 +1,35 @@
+{
+  "name": "gpt-code",
+  "version": "0.1.0",
+  "description": "CLI to Generate Code Files with GPT",
+  "main": "./index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanclevenger/gptjs.git"
+  },
+  "author": "Nathan Clevenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanclevenger/gptjs"
+  },
+  "homepage": "https://github.com/nathanclevenger/gptjs#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.5",
+    "js-yaml": "^4.1.0",
+    "nanospinner": "^1.1.0",
+    "node-fetch": "^3.2.10",
+    "openai": "^3.2.1",
+    "pluralize": "^8.0.0",
+    "slugify": "^1.6.5"
+  }
+}
